@@ -17,12 +17,12 @@ header {
     border-bottom: 2px solid black;
 }
 
-
 .site-title {
     font-size: 3.5rem;
     text-decoration: none;
     color: black;
     font-weight: bold;
+    padding: 0;
 }
 
 .img-right, .img-left {
@@ -57,10 +57,10 @@ main {
 }
 
 aside {
-
     padding: 0 0 0 4rem;
 
 }
+
 .site{ 
     max-width: 60rem;
     margin: auto;
@@ -70,4 +70,26 @@ aside {
     display: block;
     content: '';
     clear: both;
+}
+
+header nav li {
+    display: inline-block;
+    
+}
+
+header nav {
+    display: block;
+    float: right;
+}
+
+header nav li a {
+    display: block;
+    color: rgb(0, 102, 0);
+    padding: 0.7rem;
+    text-decoration: none;
+}
+
+aside nav li a {
+    color: rgb(0, 102, 0);
+    text-decoration: none;
 }
