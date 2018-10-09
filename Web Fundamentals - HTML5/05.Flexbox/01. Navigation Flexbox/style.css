@@ -1,0 +1,45 @@
+header {
+    border-bottom: 2px solid rgb(0, 0, 0);
+    display: flex;
+    justify-content: space-between;
+}
+
+a {
+    text-decoration: none;
+}
+
+header ul {
+    display: flex;
+    list-style-type: none;
+  
+}
+
+ul li {
+    list-style-type: none;
+}
+
+header p a {
+    font-size: 3rem;
+    color: rgb(0, 0, 0);
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+header nav ul li {
+	display: block;
+	padding: 0 0.25rem;
+}
+
+header nav ul li a {
+    color: rgb(0, 153, 0);
+    display: block;
+    padding: 0.5em 1rem;
+    border-radius: 0.2rem;
+}
+
+header nav ul li a:focus,
+header nav ul li a:hover {
+	outline: none;
+	background: rgb(0, 153, 0);
+	color: rgb(255, 255, 255)
+}
