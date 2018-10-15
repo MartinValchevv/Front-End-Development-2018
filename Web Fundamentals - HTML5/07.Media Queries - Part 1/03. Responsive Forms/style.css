@@ -1,0 +1,29 @@
+@import url('reset.css');
+@import url('typography.css');
+@import url('forms.css');
+@import url('https://use.fontawesome.com/releases/v5.4.1/css/all.css');
+
+body {
+    padding: 2rem;
+    background: #EEE;
+}
+
+.button {
+    background: #333;
+    color: #EEE;
+    width: 4rem;
+    height: 1.5rem;
+    border-radius: 0.3rem;
+    font-size: 16px;
+    border: none;
+}
+
+.button:hover {
+    background: #090;
+}
+
+@media screen and (max-width: 500px) {
+    .button {
+        font-size: 12px;
+    }
+ }

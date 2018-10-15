@@ -1,0 +1,16 @@
+body {
+    background: #EEEEEE;
+    text-align: center;
+}
+
+.gallery > li{
+    display: inline-block;
+    list-style-type: none;
+    padding: 1rem;
+    border: 4px solid #000; 
+    margin: 7px;
+}
+
+.resize-img img {
+    width: 300px;
+}
