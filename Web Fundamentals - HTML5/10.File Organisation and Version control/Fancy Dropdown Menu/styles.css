@@ -1,0 +1,33 @@
+@import url('navigation.css');
+
+html {
+	font: 18px/1.5 "Lucida Grande", "Verdana", sans-serif;
+	box-sizing: border-box;
+}
+
+*, *:before, *:after {
+	box-sizing: inherit;
+}
+
+body {
+	padding: 2rem;
+	background: #EEE;
+}
+
+.site-header {
+	display: flex;
+	align-items: center;
+}
+
+.site-title {
+	font-size: 1.5rem;
+	font-weight: bold;
+	padding: 0;
+	margin: 0;
+}
+
+.site-title a {
+	display: block;
+	color: purple;
+	text-decoration: none;
+}
