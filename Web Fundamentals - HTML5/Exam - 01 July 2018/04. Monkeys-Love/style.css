@@ -1,0 +1,197 @@
+@import url('https://use.fontawesome.com/releases/v5.4.1/css/all.css');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,400i,700,700i');
+html, body {
+    font-family: 'Open Sans', sans-serif;
+    padding: 0 0 1rem 0;
+    margin: 0;
+}
+
+nav {
+    background: white;
+    display: flex;
+    justify-content: center;
+}
+
+ul {
+    display: inline-flex;
+    list-style: none outside;
+}
+
+li a {
+    padding: 1rem;
+    text-decoration: none;
+    color: #F05F40;
+    font-weight: bold;
+}
+
+.header-bg {
+    overflow: hidden;
+    height: 36rem;
+    max-height: 47rem;
+    position: relative;
+}
+
+.header-bg img {
+    display: block;
+    width: 100%;
+    height: auto;
+    position: absolute;
+    bottom: 0;
+}
+
+.header-bg h2 {
+    position: relative;
+    top: 4rem;
+    text-align: center;
+    color: white;
+}
+
+.header-bg h2::after {
+    content: '';
+    width: 4rem;
+    height: 0.25rem;
+    background: #F05F40;
+    display: block;
+    position: relative;
+    left: 48%;
+    top: 1rem;
+}
+
+.header-bg p {
+    position: relative;
+    top: 8rem;
+    color: white;
+    width: 43rem;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.style {
+    width: 100%;
+    height: 17rem;
+    background: #F05F40;
+    position: absolute;
+    top: 25rem;
+}
+
+.style h2 {
+    text-align: center;
+    color: white;
+    font-weight: normal;
+    padding-top: 1rem;
+}
+
+.style h2::after {
+    content: '';
+    width: 4rem;
+    height: 0.25rem;
+    background: white;
+    display: block;
+    position: relative;
+    left: 48%;
+    top: 1rem;
+}
+
+.style p {
+    position: relative;
+    top: 1rem;
+    color: white;
+    width: 43rem;
+    text-align: center;
+    margin: 0 auto;
+}
+
+button {
+    color: black;
+    background: white;
+    border-radius: 2rem;
+    border-color: white;
+    width: 15rem;
+    height: 3rem;
+    outline: none;
+    display: block;
+    margin: 2rem auto;
+    text-transform: uppercase;
+    font-weight: bold;
+    border: none;
+}
+
+button:hover {
+    background: #E2E6EA;
+    cursor: pointer;
+}
+
+.kind-of-monkey {
+    width: 100%;
+    height: 25rem;
+    padding-bottom: 3rem;
+}
+
+.kind-of-monkey h3 {
+    position: relative;
+    top: 4rem;
+    text-align: center;
+    font-weight: normal;
+}
+
+.kind-of-monkey h3::after {
+    content: '';
+    width: 4rem;
+    height: 0.25rem;
+    background: #F05F40;
+    display: block;
+    position: relative;
+    left: 48%;
+    top: 1rem;
+}
+
+.column {
+    padding: 10rem 13rem 0 13rem;
+    display: flex;
+    flex: 1 0 auto;
+    justify-content: center;
+}
+
+.fas, .far {
+    font-size: 40px;
+    color: #F05F40;
+}
+
+.col1, .col2, .col3, .col4 {
+    text-align: center;
+    padding: 0 1rem;
+}
+
+.gallery {
+    width: 100%;
+    height: 15.35rem;
+    border-bottom: 2px solid #F05F40;
+    border-top: 2px solid #F05F40;
+}
+
+.row-pic {
+  display: flex;
+  padding: 0 2rem;
+}
+
+.pic1, .pic2, .pic3 {
+    padding: 0 2rem;
+}
+
+.pic1 img, .pic2 img, .pic3 img {
+    border-left: 2px solid #F05F40;
+    border-right: 2px solid #F05F40;
+    width: 23rem;
+}
+
+footer {
+    border-bottom: 2px solid grey;
+}
+
+footer p {
+    text-align: center;
+}
+
+footer span {
+    color: #F05F40;
+}

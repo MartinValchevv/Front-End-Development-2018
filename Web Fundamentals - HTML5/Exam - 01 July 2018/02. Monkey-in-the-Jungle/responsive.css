@@ -1,0 +1,30 @@
+@media screen and (max-width: 480px) {
+    
+       
+    .wrapper.style1 .content {
+        padding: 1.5rem;
+    }
+    .wrapper.style2 {
+        padding: 2rem;
+    }
+    .gallery {
+        width: 39rem;
+        margin: 0;
+        display: block;
+        flex-wrap: wrap;
+        align-items: stretch;
+    }
+    .spotlight img, .alt img {
+        width: 100%;
+    }
+    .spotlight .inner {
+        padding: 2rem;
+        width: 100%;
+    }
+    .inner h3 {
+        text-align: center;
+    }
+    body>main>section>section:nth-child(3)>div.spotlight.alt>div>p {
+        text-align: center;
+    }
+}

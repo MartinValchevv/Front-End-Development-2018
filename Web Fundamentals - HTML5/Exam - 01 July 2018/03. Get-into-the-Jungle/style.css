@@ -1,0 +1,161 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,400i,700,700i');
+@import url('https://use.fontawesome.com/releases/v5.4.1/css/all.css');
+
+html {
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background-image: linear-gradient(to right, #A0685C , #C59E88, #F1DEBD);
+    /* background-repeat: no-repeat; */
+    padding: 5rem;
+    padding-bottom: 5rem;
+}
+
+p {
+    font-size: 14px;
+}
+
+.conteiner {
+    width: 50rem;
+    background: white;
+    display: flex;
+    position: absolute;
+    top: 7%;
+    left: 16%;
+    border-radius: 0.8rem;
+    box-shadow: 7px -3px 16px 8px rgba(0,0,0,0.23);
+}
+
+img {
+    width: 20rem;
+    padding: 3rem;
+}
+
+
+.right-position {
+    position: relative;
+    left: 5rem;
+    top: 3rem;
+}
+
+.title {
+    text-align: center;
+    font-size: 18px;
+    font-weight: normal;
+}
+
+input {
+    background: #E6E6E6;
+    border: none;
+    border-radius: 2rem;
+    padding: 0.8rem;
+    outline: none;
+    margin-top: 1rem;
+    /* text-indent: 2rem; */
+}
+
+#email, #password {
+    width: 100%;
+    margin: 0;
+}
+
+.here-for {
+    margin-bottom: 0;
+}
+
+input[type='radio'] {
+    display: none;
+    /*removes original button*/
+  }
+
+  label {
+    position: relative;
+    font-size: 14px;
+    color:  #AAAAAA;
+  }
+
+  label:before {
+    /*styles outer circle*/
+    content: " ";
+    display: inline-block;
+    position: relative;
+    top: 5px;
+    margin: 0 5px 0 0;
+    width: 0.8rem;
+    height: 0.8rem;
+    border-radius: 50%;
+    border: 5px solid #AAAAAA;
+    background-color: transparent;
+  }
+  
+  label input[type='radio']:checked+span {
+    /*styles inside circle*/
+    border-radius: 11px;
+    width: 12px;
+    height: 12px;
+    position: absolute;
+    top: 2px;
+    left: 5.5px;
+    display: block;
+    background-color: #AAAAAA;
+  }
+
+  .button {
+      background: #8E6B52;
+      color: white;
+      width: 100%;
+      
+  }
+
+  .button:hover {
+    background: #5E4736;
+}
+
+a {
+    color: #AAAAAA;
+}
+
+.forgot-pass {
+    font-size: 10px;
+    text-align: center;
+}
+
+body > div > div.right-position > a {
+   position: relative;
+   top: 2.3rem; left: 3.3rem;
+   font-size: 10px;
+}
+
+i {
+    padding: 0;
+    margin: 0;
+}
+
+.fas {
+    color: #666666;
+}
+
+ .fa-envelope {
+    position: relative;
+    top: 2rem;
+    left: 1rem;
+}
+
+.fa-lock {
+    position: relative;
+    top: 2rem;
+    left: 1rem;
+}
+
+.fa-long-arrow-alt-right {
+    position: relative;
+    top: 2.3rem;
+    left: 3.5rem;
+    font-size: 10px;
+} 
+
+input[type="text"],
+input[type="password"] {
+	padding-left: 2.75em;
+}
