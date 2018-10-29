@@ -1,0 +1,72 @@
+@media screen and (max-width: 1028px) {
+    @media screen and (max-width: 768px) {
+        #main {
+            display: block;
+        }
+        aside {
+            width: 90%;
+            margin: 1rem auto;
+        }
+        main {
+            width: 90%;
+            margin: 1rem auto;
+        }
+        .school div {
+            display: flex;
+            flex-wrap: wrap;
+        }
+        .uni-img-container {
+            width: 100%;
+            background-color: rgba(241, 241, 241, .4);
+            padding: 15px;
+        }
+        .school div img {
+            max-width: 100%;
+            height: 90%;
+        }
+
+        aside img {
+            width: 100%;
+            height: auto;
+        }
+    }
+    
+    @media screen and (min-width: 768px) {
+        #main {
+            display: block;
+        }
+        aside {
+            width: 90%;
+            margin: 1rem auto;
+            display: flex;
+            flex-wrap: wrap;
+        }
+    
+        #skills {
+            width: 100%;
+        }
+    
+        #languages {
+            width: 100%;
+        }
+    
+        hr {
+            display: none;
+        }
+    
+        #personal-info {
+            padding: 3rem;
+        }
+    
+        aside img {
+            max-width: 50%;
+            height: auto;
+            border-radius: 50%;
+            padding: 2rem;
+        }
+        main {
+            width: 94%;
+            margin: 0 auto;
+        }
+    }
+}
