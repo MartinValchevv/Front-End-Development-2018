@@ -1,5 +1,147 @@
 @import url('reset.css');
+@import url('typography.css');
 @import url('forms.css');
 @import url('buttons.css');
-@import url('typography.css');
 @import url('layout.css');
+
+nav ul {
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+   list-style: none outside;
+}
+
+nav > ul {
+    display: flex;
+}
+
+nav a {
+    display: block;
+    padding: 0.5em 1em;
+    text-decoration: none;
+    color: purple;
+}
+
+nav > ul > li:first-child a {
+    padding-left: 0;
+}
+
+.site-branding {
+    margin-right: auto;
+}
+
+.site-title {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.site-description {
+    opacity: 0.7;
+    font-style: italic;
+}
+
+.header-top {
+    padding-bottom: 1.5rem;
+}
+
+nav ul ul {
+    display: none;
+}
+
+nav li.sub-menu a {
+    display: flex;
+  align-items: center;
+}
+
+nav li.sub-menu > a::after {
+    display: block;
+    content: '\f0d7';
+    font-family: 'Font Awesome 5 Free';
+    font-weight: 900;
+    padding-left: 0.4rem;
+}
+
+nav a:hover {
+    color: red;
+}
+
+nav li {
+    position: relative;
+}
+
+nav li:hover > ul {
+    display: block;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background: white;
+    z-index: 2000;
+    width: 15rem;
+    box-shadow: 0 1rem 1rem 0 rgba(0, 0, 0, 0.5);
+}
+
+/* Product Listing */
+
+.products {
+    padding: 0; 
+    margin: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.products li {
+    display: block;
+    list-style: none outside;
+    flex: 0 0 32%;
+    margin-bottom: 1rem;
+    position: relative;
+    overflow: hidden;
+}
+
+.products li::before {
+    display: block;
+    content: '';
+    padding-top: 100%;
+    background: #EEE;
+    border: 1px solid #666;
+}
+
+
+.products li span {
+    position: absolute;
+}
+
+.products li span.title {
+   top: 1rem;
+   left: 1.4rem;
+}
+
+.products li span.price {
+   bottom: 1rem;
+   right: 1.4rem;;
+ }
+
+ .products li span.desc {
+    display: none;
+ }
+
+ .products a {
+     display: block;
+     position: absolute;
+     color: purple;
+     top: 0;
+     left: 0;
+     right: 0;
+     bottom: 0;
+ }
+
+ .site-header form.search input.button {
+     display: none;
+ }
+
+ 
+ .site-header form.search input[name="search"] {
+}
