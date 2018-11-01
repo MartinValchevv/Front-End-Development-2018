@@ -99,6 +99,7 @@ header a {
     flex-basis: 100%;
     text-align: center;
     padding-top: 0;
+    letter-spacing: 0.3rem;
 }
 
 .one, .two, .three {
@@ -107,3 +108,147 @@ header a {
   
 }
 
+span::before {
+    content: '';
+    position: relative;
+    top: -0.5rem;
+    width: 2rem;
+    height: 0.13rem;
+    background: black;
+    display: inline-block;
+    margin-right: 1rem;
+}
+
+
+span::after {
+    content: '';
+    position: relative;
+    top: -0.5rem;
+    width: 2rem;
+    height: 0.13rem;
+    background: black;
+    display: inline-block;
+    margin-left: 1rem;
+}
+
+.one span, .two span, .three span{
+    font-size: 34px;
+    font-weight: normal;
+}
+
+h2 {
+    font-weight: normal;
+}
+
+.one p, .two p, .three p {
+    width: 13rem;
+    margin: auto;
+}
+
+.gallery {
+    background: #EDEDED;
+    display: flex;
+    justify-content: center;
+    padding: 5rem 0;
+}
+
+.gallery img {
+    padding-right: 1rem;
+}
+
+footer {
+    display: flex;
+    background: black;
+    justify-content: center;
+    align-items: center;
+}
+
+.sitemap {
+    display: flex;
+    border-bottom: 2px solid #5E655E;
+} 
+
+.sitemap a{
+    color: #5E655E;
+    text-decoration: none;
+}
+
+.col1, .col2, .col3 {
+    text-align: center;
+}
+
+.sitemap li {
+    padding-bottom: 1rem;
+    text-decoration: none;
+}
+
+h6 {
+    color: #5E655E;
+    font-size: 16px;
+    font-weight: normal;
+    text-align: center;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.logo {
+    height: 15rem;
+}
+
+.subscribe {
+    height: 15rem;
+}
+
+.map {
+  display: flex;
+  justify-content: center;
+  background: black;
+padding: 2rem 0;
+}
+
+.map ul{
+    margin: 0;
+    display: flex;
+    list-style: none;
+    padding: 0 1rem;
+}
+
+.map li {
+    padding: 0 1rem;
+    list-style: none;
+    border-right: 1px solid #5E655E;
+}
+
+.map li:last-child {
+    border-right: none;
+}
+
+.map a {
+    color: #5E655E;
+    text-decoration: none;
+}
+
+.button {
+    background: #FA5B3C;
+    border: none;
+    outline: none;
+    width: 8rem;
+    height: 2rem;
+    color: white;
+    display: block;
+    margin-top: 0.7rem;
+}
+
+#email {
+    width: 15rem;
+    height: 2rem;
+}
+
+.logo::after {
+    content: '';
+    border: 2px solid white;
+    border-radius: 50%;
+    width: 0.8rem;
+    height: 0.8rem;
+    display: block;
+}
