@@ -1,0 +1,48 @@
+body {
+    background: #D3D3D3;
+    font-family: 'Karla', sans-serif;
+}
+
+h1 {
+    text-align: center;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+section {
+    display: flex;
+    padding: 2rem;
+    justify-content: center;
+}
+
+article {
+    border: 2px solid #0610B2;
+    border-radius: 1.5rem;
+    margin: 0 1rem;
+    padding: 1rem 3rem;
+    background: #87CEEA;
+    text-align: center;
+    height: 35rem;
+}
+
+img {
+    width: 100%;
+    height: 40%;
+}
+
+h2 {
+    text-align: center;
+}
+
+span {
+    font-weight: bold;
+}
+
+button {
+    background: #D3D3D3;
+    border-color: #0610B2;
+    padding: 0.5rem 1rem;
+    border-radius: 0.7rem;
+    text-transform: uppercase;
+}
+
