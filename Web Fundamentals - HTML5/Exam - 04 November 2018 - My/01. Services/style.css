@@ -1,0 +1,114 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+
+.conteiner {
+    width: 70%;
+    margin: 0 auto;
+}
+
+.plans {
+    display: flex;
+    justify-content: space-between;
+}
+
+h1::after {
+    content: '';
+    width: 4.5rem;
+    height: 0.15rem;
+    background: #008CBA;
+    display: block;
+    text-align: left;
+    margin-top: 0.5rem;
+}
+
+.info p {
+    font-size: 14.3px;
+}
+
+.basic, .profesional, .business {
+    width: 33.3%;
+    padding: 0 2rem;
+    text-align: center;
+}
+
+.basic {
+    padding-left: 0;
+}
+
+.business {
+    padding-right: 0;
+}
+
+h2 {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.basic h2, .business h2 {
+    background: #333333;
+    color: white;
+    font-weight: normal;
+    font-size: 1.2em;
+    padding: 0.5rem;
+    border-top: 1px solid grey;
+    border-left: 1px solid grey;
+    border-right: 1px solid grey;
+}
+
+.profesional h2 {
+    background: #008CBA;
+    color: white;
+    font-weight: normal;
+    font-size: 1.2em;
+    padding: 0.5rem;
+    border-top: 1px solid grey;
+    border-left: 1px solid grey;
+    border-right: 1px solid grey;
+}
+
+.price {
+    font-size: 1.5em;
+    background: #F6F6F6;
+    margin: 0;
+    padding: 0.5rem;
+    font-weight: lighter;
+    border-left: 1px solid grey;
+    border-right: 1px solid grey;
+}
+
+.dsc {
+    font-size: 12px;
+    margin: 0;
+    padding: 0.5rem;
+    border-left: 1px solid grey;
+    border-right: 1px solid grey;
+    border-bottom: 1px dashed grey;
+}
+
+.database, .storage, .user {
+    font-size: 14px;
+    margin: 0;
+    padding: 0.5rem;
+    border-left: 1px solid grey;
+    border-right: 1px solid grey;
+    border-bottom: 1px dashed grey;
+}
+
+button {
+    width: 5.5rem;
+    padding: 0.6rem 0;
+    border-radius: 0.2rem;
+    border: none;
+    background: #008CBA;
+    color:white;
+    margin: 2rem 0;
+}
+
+.border {
+    border-bottom: 1px solid grey;
+    border-left: 1px solid grey;
+    border-right: 1px solid grey;
+    margin-top: 0;
+}

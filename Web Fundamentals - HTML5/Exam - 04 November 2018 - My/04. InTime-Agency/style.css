@@ -1,0 +1,218 @@
+body {
+    font-family: "Helvetica", sans-serif;
+    margin: 0;
+}
+
+.navigation {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+ul {
+    display: inline-flex;
+    list-style: none outside;
+    padding-right: 5rem;
+}
+
+li a {
+    padding: 0.8rem;
+    text-decoration: none;
+    color: black;
+}
+
+.navigation > nav > ul > li:nth-child(1) > a {
+    border-bottom: 2px solid #008CBA;
+    padding-bottom: 3px;
+}
+
+.navigation > p {
+    font-size: 20px;
+    padding-left: 5rem;
+}
+
+
+.navigation > p > span {
+   color: #008CBA;
+}
+
+.header-img img {
+    width: 100%;
+}
+
+.banner {
+    width: 22rem;
+    height: 9rem;
+    background: rgba(0, 0, 0, 0.5);
+    position: relative;
+    top: -17rem;
+    left: 8rem;
+}
+
+.banner p {
+    margin: 0; 
+    padding: 0;
+    font-size: 30px;
+    color: white;
+    margin-left: 0.5rem;
+}
+
+.banner button {
+    width: 10rem;
+    padding: 0.5rem;
+    font-size: 20px;
+    color: white;
+    background: #008CBA;
+    border: none;
+    border-radius: 1.4rem;
+    margin-left: 0.5rem;
+    margin-top: 0.5rem;
+}
+
+.welcome {
+    text-align: center;
+    position: relative;
+    bottom: 125px;
+}
+
+.welcome h2 {
+    font-weight: normal;
+}
+
+.welcome h2::after {
+    content: '';
+    width: 4.5rem;
+    height: 0.15rem;
+    background: #008CBA;
+    display: block;
+    margin-top: 0.5rem;
+    position: relative;
+    left: 48%;
+}
+
+.welcome p {
+  padding: 0 5rem;
+}
+
+button {
+    width: 10rem;
+    padding: 0.5rem;
+    font-size: 20px;
+    color: white;
+    background: #454545;
+    border: none;
+    border-radius: 1.4rem;
+    margin-left: 0.5rem;
+    margin-top: 0.5rem;
+    outline: none;
+}
+
+.our-service {
+    background: #EEF0F1;
+    text-align: center;
+    padding: 2rem 5rem 2rem 5rem;
+}
+
+.our-service h2 {
+    font-weight: normal;
+}
+
+.our-service h2::after {
+    content: '';
+    width: 4.5rem;
+    height: 0.15rem;
+    background: #454545;
+    display: block;
+    margin-top: 0.5rem;
+    position: relative;
+    left: 48%;
+}
+.service {
+    display: flex;
+    justify-content: center;
+}
+
+.service img {
+    width: 100%;
+}
+
+.service div {
+    background: white;
+    margin: 1rem;
+    padding-bottom: 1rem;
+}
+
+.service h3 {
+    font-weight: normal;
+}
+
+.service p {
+    width: 80%;
+   margin: 0 auto;
+}
+
+.subscribe {
+    background: #393F43;
+    padding: 2rem 5rem 2rem 5rem;
+    text-align: center;
+    color: white;
+}
+
+.subscribe h2 {
+   font-weight: normal;
+}
+
+.subscribe h2::after {
+    content: '';
+    width: 4.5rem;
+    height: 0.15rem;
+    background: white;
+    display: block;
+    margin-top: 0.5rem;
+    position: relative;
+    left: 48%;
+}
+
+input {
+    background: #545A5E;
+    border: none;
+    padding: 1rem;
+    width: 15rem;
+    outline: none
+}
+
+.btn-subscribe {
+    background:#6BBFFF;
+    border: none;
+    padding: 1rem;
+    width: 8rem;
+    outline: none;
+}
+
+.site-map {
+    display: flex;
+    justify-content: space-between;
+    background: #2F3539;
+
+}
+
+.site-map p {
+  color: white;
+}
+
+i {
+    color: white;
+    padding: 0.5rem;
+}
+
+footer {
+    background: #262B2F;
+    color: white;
+    padding: 1rem;
+    text-align: center;
+}
+
+
+footer span {
+    color:  #008CBA;
+}
