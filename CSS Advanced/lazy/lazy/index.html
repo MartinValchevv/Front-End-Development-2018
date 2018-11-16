@@ -1,0 +1,31 @@
+---
+layout: site
+---
+<h1>Opa</h1>
+
+<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Modi, praesentium molestias. Optio ipsa alias et magni
+	molestias recusandae vel eligendi labore obcaecati repudiandae, aliquam rem minus sapiente suscipit. Quae, autem.</p>
+<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Modi, praesentium molestias. Optio ipsa alias et magni
+	molestias recusandae vel eligendi labore obcaecati repudiandae, aliquam rem minus sapiente suscipit. Quae, autem.</p>
+<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Modi, praesentium molestias. Optio ipsa alias et magni
+	molestias recusandae vel eligendi labore obcaecati repudiandae, aliquam rem minus sapiente suscipit. Quae, autem.</p>
+<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Modi, praesentium molestias. Optio ipsa alias et magni
+	molestias recusandae vel eligendi labore obcaecati repudiandae, aliquam rem minus sapiente suscipit. Quae, autem.</p>
+<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Modi, praesentium molestias. Optio ipsa alias et magni
+	molestias recusandae vel eligendi labore obcaecati repudiandae, aliquam rem minus sapiente suscipit. Quae, autem.</p>
+<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Modi, praesentium molestias. Optio ipsa alias et magni
+	molestias recusandae vel eligendi labore obcaecati repudiandae, aliquam rem minus sapiente suscipit. Quae, autem.</p>
+<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Modi, praesentium molestias. Optio ipsa alias et magni
+	molestias recusandae vel eligendi labore obcaecati repudiandae, aliquam rem minus sapiente suscipit. Quae, autem.</p>
+<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Modi, praesentium molestias. Optio ipsa alias et magni
+	molestias recusandae vel eligendi labore obcaecati repudiandae, aliquam rem minus sapiente suscipit. Quae, autem.</p>
+
+<ul class="listing posts">
+	{% for post in site.posts %}
+	<li>
+		<a href="{{site.baseurl}}{{ post.url }}">
+			<span class="title">{{ post.title }}</span>
+		</a>
+	</li>
+	{% endfor %}
+</ul>

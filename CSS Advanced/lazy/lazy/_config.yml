@@ -1,0 +1,26 @@
+
+title: Jekyll Theme - Lazy
+email: martinvalchev2@gmail.com
+description: This is a very minimalistic and beautiful for jekyll
+baseurl: "/jekyll-theme-lazy" # the subpath of your site, e.g. /blog
+url: "" # the base hostname & protocol for your site, e.g. http://example.com
+
+github_username:  martinvalchevv
+
+future: true
+markdown: kramdown
+plugins:
+  - jekyll-feed
+
+destination: docs
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - package.json
+  - gulpfile.js
+  - docs
+  - node_modules
+  - scss
+  - .gitignore
+  - package-lock.json
