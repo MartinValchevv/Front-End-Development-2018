@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="/css/style.css">
 </head>
 
-<body class="home">
+<body class="page login">
     <div class="site">
         <input type="checkbox" id="nav-main-toggle" name="nav-main-toggle">
         <header class="site-header">
@@ -30,27 +30,21 @@
             </nav>
         </header>
         <main class="site-content">
-            <style type="text/css" media="screen">
-  .container {
-    margin: 10px auto;
-    max-width: 600px;
-    text-align: center;
-  }
-  h1 {
-    margin: 30px 0;
-    font-size: 4em;
-    line-height: 1;
-    letter-spacing: -1px;
-  }
-</style>
+            <form action="#" method="POST">
+    <fieldset>
+        <legend>Login</legend>
+        <p class="field">
+            <label for="username">Username</label>
+            <input type="text" name="username" id="username">
+        </p>
+        <p class="field">
+            <label for="password">Password</label>
+            <input type="password" name="password" id="password">
+        </p>
 
-<div class="container">
-  <h1>404</h1>
-
-  <p><strong>Page not found :(</strong></p>
-  <p>The requested page could not be found.</p>
-</div>
-
+        <input class="button" type="submit" value="Login">
+    </fieldset>
+</form>
         </main>
         <footer class="site-footer">
 
