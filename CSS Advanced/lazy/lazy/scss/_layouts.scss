@@ -5,15 +5,11 @@ body {
 
 .site {
     padding: var(--spacing-site, 2em);
-}
 
-.site-content {
-    max-width: 60rem;
-    margin: 0 auto;
-}
-
-body.login .site-header {
-    display: none;
+    @at-root #{&}-content {
+        max-width: 60rem;
+        margin: 0 auto;
+    }
 }
 
 body.login {
@@ -21,13 +17,16 @@ body.login {
     overflow: hidden;
     padding-top: 0;
     display: flex;
-}
 
-body.login .site {
-    flex: 1 0 auto;
-    background: #EEE;
-    border: 4rem solid #FFF;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
+    .site {
+        flex: 1 0 auto;
+        background: #EEE;
+        border: 4rem solid #FFF;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        #{&}-header {
+            display: none;
+         }
+    }
 }
